@@ -20,6 +20,11 @@ Page({
       url: '../logs/logs'
     })
   },
+  changeTime() {
+    this.setData({
+        "array[0].msg" : new Function()
+    })
+  },
   onLoad: function (res) {
     console.log(res)
     common.sayHello('Zxza');
@@ -54,10 +59,11 @@ Page({
   },
   //一个页面只会调用一次，代表页面已经准备妥当，可以和视图层进行交互
   onReady: function() {
+    wx.startPullDownRefresh();  
     console.log(2)
   },
   onShow: function() {
-    console.log(3)
+    console.log("this.route:" + this.route)
   },
   onHide: function() {
     console.log(4)
@@ -66,16 +72,22 @@ Page({
     console.log(5)
   },
   onPullDownRefresh: function() {
+    wx.stopPullDownRefresh();
     console.log(6)
   },
-  onShareAppMessage: function() {
+  onShareAppMessage: function(req) {
+    wx.hideShareMenu();
     return {
       title: 'zxza',
-      path: '/pages/logs/logs'
+      path: '/pages/logs/logs',
+      imageUrl: '/images/home-blue.png',
+      success: function(res) {
+        console.log("转发成功:" + JSON.stringify(res));
+      }
     }
   },
   onTabItemTap: function(item) {
-    console.log(item)
+    console.log("item:" + item.index)
   },
   onReachBottom: function() {
     console.log(8)
