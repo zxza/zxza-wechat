@@ -1,48 +1,12 @@
 {
-	"description": "项目配置文件。",
+	"client": "./client",
+	"svr": "./server",
+	"miniprogramRoot": "./client",
+	"qcloudRoot": "./server",
 	"setting": {
-		"urlCheck": true,
-		"es6": true,
-		"postcss": true,
-		"minified": true,
 		"newFeature": true
 	},
-	"compileType": "miniprogram",
-	"libVersion": "1.9.91",
 	"appid": "wx0327b39e11d54d31",
-	"projectname": "zxza%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%AD%A6%E4%B9%A0",
-	"isGameTourist": false,
-	"condition": {
-		"search": {
-			"current": -1,
-			"list": []
-		},
-		"conversation": {
-			"current": -1,
-			"list": []
-		},
-		"game": {
-			"currentL": -1,
-			"list": []
-		},
-		"miniprogram": {
-			"current": -1,
-			"list": [
-				{
-					"id": -1,
-					"name": "wxml",
-					"pathName": "pages/shareDemo/shareDemo",
-					"query": "",
-					"scene": "1001"
-				},
-				{
-					"id": -1,
-					"name": "分享demo",
-					"pathName": "pages/shareDemo/shareDemo",
-					"query": "",
-					"scene": "1001"
-				}
-			]
-		}
-	}
+	"projectname": "zxza%E8%85%BE%E8%AE%AF%E4%BA%91",
+	"condition": {}
 }
