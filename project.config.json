@@ -8,5 +8,36 @@
 	},
 	"appid": "wx0327b39e11d54d31",
 	"projectname": "zxza%E8%85%BE%E8%AE%AF%E4%BA%91",
-	"condition": {}
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": 0,
+					"name": "wxml",
+					"pathName": "pages/upLoadFile/upLoadFile",
+					"query": "",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "分享demo",
+					"pathName": "pages/shareDemo/shareDemo",
+					"query": "",
+					"scene": "1001"
+				}
+			]
+		}
+	}
 }

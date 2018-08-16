@@ -20,6 +20,7 @@ Page({
                 that.setData({
                     requestResult: JSON.stringify(result.data)
                 })
+                console.log(result)
             },
             fail (error) {
                 util.showModel('请求失败', error);

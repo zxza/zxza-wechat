@@ -1,0 +1,8 @@
+<view class='window'>
+    <image src="{{imgSrc}}" class='img'></image>
+    <view class='shareBut'>
+        <button type='default' id='open' bindtap='openShare' >上传文件</button>
+        <button type='warn' id='close' bindtap='hideShare' >关闭分享</button>
+    </view>
+    <button type='primary' open-type='share' data-name="pageShare" id="share">点击分享</button>
+</view>
