@@ -35,4 +35,7 @@ router.post('/message', controllers.message.post)
 //测试CGI
 router.get('/demo', controllers.demo)
 
+router.get('/webso', controllers.webso)
+
+
 module.exports = router

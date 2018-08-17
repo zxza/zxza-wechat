@@ -26,7 +26,7 @@
 				{
 					"id": 0,
 					"name": "wxml",
-					"pathName": "pages/upLoadFile/upLoadFile",
+					"pathName": "pages/websocket/websocket",
 					"query": "",
 					"scene": "1001"
 				},

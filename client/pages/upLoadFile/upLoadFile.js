@@ -24,14 +24,37 @@ Page({
      */
     onReady: function () {
     },
-    openShare() {
-        wx.uploadFile({
+    openFile() {
+        const uploadTask = wx.uploadFile({
             url: `${config.service.host}/weapp/upload`,
             filePath: '/images/home.png',
             name: 'file',
             success: function (res) {
                 console.log(res)
             }
+        });
+        uploadTask.onProgressUpdate((res) => {
+            console.log('上传进度', res.progress)
+            console.log('已经上传的数据长度', res.totalBytesSent)
+            console.log('预期需要上传的数据总长度', res.totalBytesExpectedToSend)
+        })
+    },
+
+    downFile() {
+        var downFile = wx.downloadFile({
+            url: `${config.service.host}/weapp/upload`,
+            header: 'image/png',
+            success: function(res) {
+                wx.previewImage({
+                    urls: [res.tempFilePath]
+                })
+            }
+        })
+
+        downFile.onProgressUpdate((res) => {
+            console.log('上传进度', res.progress)
+            console.log('已经下载的数据长度', res.totalBytesWritten)
+            console.log('预期需要下载的数据总长度', res.totalBytesExpectedToWrite)
         })
     },
 
