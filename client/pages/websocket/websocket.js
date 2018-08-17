@@ -33,11 +33,21 @@ Page({
 
     openWebsocket() {
         wx.connectSocket({
-            url: "ws://6fyapw8o.qcloud.la/webso:8081",
+            url: "wss://6fyapw8o.ws.qcloud.la",
         })
         wx.onSocketOpen(function (res) {
             console.log('WebSocket连接已打开！')
+            wx.sendSocketMessage({
+                data: ['1231231'],
+            })
         })
+        wx.onSocketClose(function (){
+            console.log('WebSocket连接已关闭！')
+        })
+        wx.onSocketMessage(function (res) {
+            console.log('收到服务器内容：' + res.data)
+        })
+        
     },
 
 
