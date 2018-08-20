@@ -1,0 +1,9 @@
+<!--pages/chooseImage/chooseImage.wxml-->
+<view class='window'>
+    <image src="{{url}}" class='img'></image>
+    <view class='shareBut'>
+        <button type='default' id='open' bindtap='openImage' >打开相册</button>
+        <button type='warn' id='close' bindtap='closeImage' >关闭相册</button>
+    </view>
+    <button type='primary' data-name="saveImage" id="share">保存图片</button>
+</view>

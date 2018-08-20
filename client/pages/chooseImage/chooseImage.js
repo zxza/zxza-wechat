@@ -1,14 +1,11 @@
-// pages/websocket/websocket.js
-var qcloud = require('../../vendor/wafer2-client-sdk/index')
-var config = require('../../config')
-var util = require('../../utils/util.js')
+// pages/chooseImage/chooseImage.js
 Page({
 
     /**
      * 页面的初始数据
      */
     data: {
-
+        url: ''
     },
 
     /**
@@ -29,28 +26,33 @@ Page({
      * 生命周期函数--监听页面显示
      */
     onShow: function () {
+        wx.getImageInfo({
+            src: '/images/car.png',
+            success: function (res) {
+                console.log(res.width)
+                console.log(res.height)
+                console.log(res)
+            }
+        })
     },
 
-    openWebsocket() {
-        wx.connectSocket({
-            url: "wss://6fyapw8o.ws.qcloud.la",
+    openImage() {
+        var that = this;
+        wx.chooseImage({
+            count: 3,
+            sourceType: ['album'],
+            success: function (res) {
+                var temFilePaths = res.tempFilePaths;
+                that.setData({
+                    url: temFilePaths[0]
+                })
+                // wx.previewImage({
+                //     current: temFilePaths[0], // 当前显示图片的http链接
+                //     urls: temFilePaths // 需要预览的图片http链接列表
+                // })
+            },
         })
-        wx.onSocketOpen(function (res) {
-            console.log('WebSocket连接已打开！')
-            wx.sendSocketMessage({
-                data: ['1231231'],
-            })
-        
-        })
-        wx.onSocketClose(function (){
-            console.log('WebSocket连接已关闭！')
-        })
-        wx.onSocketMessage(function (res) {
-            console.log('收到服务器内容：' + res.data)
-        })
-        
     },
-
 
     /**
      * 生命周期函数--监听页面隐藏

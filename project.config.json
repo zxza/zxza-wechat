@@ -21,7 +21,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 2,
 			"list": [
 				{
 					"id": 0,
@@ -34,6 +34,13 @@
 					"id": -1,
 					"name": "分享demo",
 					"pathName": "pages/shareDemo/shareDemo",
+					"query": "",
+					"scene": "1001"
+				},
+				{
+					"id": 2,
+					"name": "wxml",
+					"pathName": "pages/chooseImage/chooseImage",
 					"query": "",
 					"scene": "1001"
 				}

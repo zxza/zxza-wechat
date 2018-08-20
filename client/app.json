@@ -4,7 +4,8 @@
         "pages/addCgi/addCgi",
         "pages/shareDemo/shareDemo",
         "pages/upLoadFile/upLoadFile",
-        "pages/websocket/websocket"
+        "pages/websocket/websocket",
+        "pages/chooseImage/chooseImage"
     ],
     "window": {
         "backgroundColor": "#F6F6F6",
