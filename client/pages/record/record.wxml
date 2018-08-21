@@ -1,0 +1,9 @@
+<!--pages/record/record.wxml-->
+<view class='window'>
+    <image src="{{imgSrc}}" class='img'></image>
+    <view class='shareBut'>
+        <button type='default' id='open' bindtap='openRecord' >打开录音</button>
+        <button type='warn' id='close' bindtap='closeRecord' >暂停录音</button>
+    </view>
+    <button type='primary' data-name="pageShare" id="share" bindtap='contiuneRecord'>继续录音</button>
+</view>

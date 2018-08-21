@@ -40,7 +40,7 @@
 				{
 					"id": 2,
 					"name": "wxml",
-					"pathName": "pages/chooseImage/chooseImage",
+					"pathName": "pages/record/record",
 					"query": "",
 					"scene": "1001"
 				}
