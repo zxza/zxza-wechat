@@ -1,0 +1,9 @@
+<!--pages/audio/audio.wxml-->
+<view class='window'>
+    <image src="{{imgSrc}}" class='img'></image>
+    <view class='shareBut'>
+        <button type='default' id='open' bindtap='openAudio' >播放音乐</button>
+        <button type='warn' id='close' bindtap='closeAudio' >暂停音乐</button>
+    </view>
+    <button type='primary' data-name="pageShare" id="share" bindtap='contiuneAudio'>继续播放</button>
+</view>
