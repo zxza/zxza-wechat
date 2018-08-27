@@ -1,0 +1,10 @@
+<!--pages/Video/video.wxml-->
+  <view class='window'>
+    <video src="{{src}}" class='img'></video>
+    <view class='shareBut'>
+        <button type='default' id='open' bindtap='openVideo' >打开视频</button>
+        <button type='warn' id='close' bindtap='closeVideo' >暂停视频</button>
+    </view>
+    <button type='primary' data-name="pageShare" id="share" bindtap='contiuneVideo'>继续播放</button>
+</view>  
+
