@@ -1,1 +1,32 @@
 /* pages/view/view.wxss */
+.flex-wrp{
+    display: flex;
+}
+.flex-item{
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+.bc_green{
+    background-color: green;
+}
+.bc_red{
+    background-color: red;
+}
+.trans_red{
+    animation: changeBiger 4s linear forwards;
+    animation-delay: 5s;
+    -webkit-animation-delay: 5s;
+    transform: scale(1.08);
+}
+@keyframes changeBiger {
+    0% {
+        transform: scale(1.08);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.bc_blue{
+    background-color: blue;
+}
