@@ -28,6 +28,17 @@ Page({
         })
     },
 
+
+    //保存视频到系统相册
+    contiuneVideo() {
+        wx.saveVideoToPhotosAlbum({
+            filePath: this.data.src,
+            success: function() {
+                console.log(123)
+            }
+        })
+    },
+
     /**
      * 生命周期函数--监听页面初次渲染完成
      */

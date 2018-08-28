@@ -40,7 +40,7 @@
 				{
 					"id": 2,
 					"name": "wxml",
-					"pathName": "pages/video/video",
+					"pathName": "pages/view/view",
 					"query": "",
 					"scene": "1001"
 				}
