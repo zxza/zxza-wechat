@@ -17,6 +17,10 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"list": []
 		},
@@ -40,7 +44,7 @@
 				{
 					"id": 2,
 					"name": "wxml",
-					"pathName": "pages/view/view",
+					"pathName": "pages/scrollView/scrollView",
 					"query": "",
 					"scene": "1001"
 				}
