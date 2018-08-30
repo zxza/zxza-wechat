@@ -44,7 +44,7 @@
 				{
 					"id": 2,
 					"name": "wxml",
-					"pathName": "pages/scrollView/scrollView",
+					"pathName": "pages/swiper/swiper",
 					"query": "",
 					"scene": "1001"
 				}
