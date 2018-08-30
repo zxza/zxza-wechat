@@ -13,6 +13,7 @@ Page({
     scroll: function (e) {
         console.log(e)
     },
+
     tap: function (e) {
         for (var i = 0; i < order.length; ++i) {
             if (order[i] === this.data.toView) {
@@ -24,8 +25,8 @@ Page({
         }
     },
     tapMove: function (e) {
-        this.setData({
-            scrollTop: this.data.scrollTop + 10
-        })
+        // this.setData({
+        //     scrollTop: this.data.scrollTop + 10
+        // })
     }
 })
