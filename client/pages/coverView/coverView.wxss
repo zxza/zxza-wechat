@@ -1,0 +1,31 @@
+/* pages/coverView/coverView.wxss */
+
+.controls {
+    position: relative;
+    height: 50px;
+    margin-top: -25px;
+    display: flex;
+    width: 600rpx;
+    height: 450rpx;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.play, .pause, .time {
+    flex: 1;
+    height: 100%;
+    position: relative;
+    top: 50%;
+}
+
+.time {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    line-height: 50px;
+}
+
+.img {
+    width: 40px;
+    height: 40px;
+    margin: 5px auto;
+}

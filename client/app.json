@@ -12,7 +12,9 @@
         "pages/video/video",
         "pages/view/view",
         "pages/scrollView/scrollView",
-        "pages/swiper/swiper"
+        "pages/swiper/swiper",
+        "pages/movableArea/movableArea",
+        "pages/coverView/coverView"
     ],
     "window": {
         "backgroundColor": "#F6F6F6",

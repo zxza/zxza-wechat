@@ -25,7 +25,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 2,
+			"current": 3,
 			"list": [
 				{
 					"id": 0,
@@ -45,6 +45,13 @@
 					"id": 2,
 					"name": "wxml",
 					"pathName": "pages/swiper/swiper",
+					"query": "",
+					"scene": "1001"
+				},
+				{
+					"id": 3,
+					"name": "wxml",
+					"pathName": "pages/coverView/coverView",
 					"query": "",
 					"scene": "1001"
 				}
