@@ -27,7 +27,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 2,
+			"current": 3,
 			"list": [
 				{
 					"id": 0,
@@ -47,6 +47,13 @@
 					"id": 2,
 					"name": "wxml",
 					"pathName": "pages/button/button",
+					"query": "",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "wxml",
+					"pathName": "pages/form/form",
 					"query": "",
 					"scene": "1001"
 				}
