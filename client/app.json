@@ -14,7 +14,9 @@
         "pages/scrollView/scrollView",
         "pages/swiper/swiper",
         "pages/movableArea/movableArea",
-        "pages/coverView/coverView"
+        "pages/coverView/coverView",
+        "pages/baseContent/baseContent",
+        "pages/button/button"
     ],
     "window": {
         "backgroundColor": "#F6F6F6",

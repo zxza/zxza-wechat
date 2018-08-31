@@ -8,6 +8,8 @@
 	},
 	"appid": "wx0327b39e11d54d31",
 	"projectname": "zxza%E8%85%BE%E8%AE%AF%E4%BA%91",
+	"compileType": "miniprogram",
+	"libVersion": "2.2.4",
 	"condition": {
 		"search": {
 			"current": -1,
@@ -25,7 +27,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 3,
+			"current": 2,
 			"list": [
 				{
 					"id": 0,
@@ -44,14 +46,7 @@
 				{
 					"id": 2,
 					"name": "wxml",
-					"pathName": "pages/swiper/swiper",
-					"query": "",
-					"scene": "1001"
-				},
-				{
-					"id": 3,
-					"name": "wxml",
-					"pathName": "pages/coverView/coverView",
+					"pathName": "pages/button/button",
 					"query": "",
 					"scene": "1001"
 				}
