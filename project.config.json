@@ -51,9 +51,9 @@
 					"scene": "1001"
 				},
 				{
-					"id": -1,
+					"id": 3,
 					"name": "wxml",
-					"pathName": "pages/form/form",
+					"pathName": "pages/input/input",
 					"query": "",
 					"scene": "1001"
 				}
