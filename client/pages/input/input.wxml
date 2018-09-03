@@ -20,3 +20,31 @@
 <view class='section'>
     <input type='text' confirm-type='search' placeholder='占位符'></input>
 </view>
+
+<view class='section'>
+    <input type='password' placeholder='密码输入框'></input>
+</view>
+
+<view class='section'>
+    <input disabled placeholder='禁用'></input>
+</view>
+
+<view class='section'>
+    <input maxlength='10' placeholder='最大长度' confirm-hold cursor='40px'></input>
+</view>
+
+<view class="section">
+    <input password type="digit" placeholder='digit' adjust-position />
+</view>
+<view class="section">
+    <input password type="text" placeholder='密码输入框text' />
+</view>
+
+
+<view class="section">
+    <view class="section__title">你输入的是：{{inputValue}}</view>
+    <input bindinput="bindKeyInput" placeholder="输入同步到view中" />
+</view>
+<view class="section">
+    <input bindfocus="bindReplaceInput" placeholder="连续的两个1会变成2" adjust-position/>
+</view>

@@ -53,7 +53,7 @@
 				{
 					"id": 3,
 					"name": "wxml",
-					"pathName": "pages/input/input",
+					"pathName": "pages/picker/picker",
 					"query": "",
 					"scene": "1001"
 				}

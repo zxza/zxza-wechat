@@ -1,30 +1,31 @@
 {
-  "pages": [
-    "pages/index/index",
-    "pages/addCgi/addCgi",
-    "pages/shareDemo/shareDemo",
-    "pages/upLoadFile/upLoadFile",
-    "pages/websocket/websocket",
-    "pages/chooseImage/chooseImage",
-    "pages/record/record",
-    "pages/audio/audio",
-    "pages/AudioContext/AudioContext",
-    "pages/video/video",
-    "pages/view/view",
-    "pages/scrollView/scrollView",
-    "pages/swiper/swiper",
-    "pages/movableArea/movableArea",
-    "pages/coverView/coverView",
-    "pages/baseContent/baseContent",
-    "pages/button/button",
-    "pages/form/form",
-    "pages/input/input"
-  ],
-  "window": {
-    "backgroundColor": "#F6F6F6",
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "Wafer Quick Start",
-    "navigationBarTextStyle": "black"
-  }
+    "pages": [
+        "pages/index/index",
+        "pages/addCgi/addCgi",
+        "pages/shareDemo/shareDemo",
+        "pages/upLoadFile/upLoadFile",
+        "pages/websocket/websocket",
+        "pages/chooseImage/chooseImage",
+        "pages/record/record",
+        "pages/audio/audio",
+        "pages/AudioContext/AudioContext",
+        "pages/video/video",
+        "pages/view/view",
+        "pages/scrollView/scrollView",
+        "pages/swiper/swiper",
+        "pages/movableArea/movableArea",
+        "pages/coverView/coverView",
+        "pages/baseContent/baseContent",
+        "pages/button/button",
+        "pages/form/form",
+        "pages/input/input",
+        "pages/picker/picker"
+    ],
+    "window": {
+        "backgroundColor": "#F6F6F6",
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#F6F6F6",
+        "navigationBarTitleText": "Wafer Quick Start",
+        "navigationBarTextStyle": "black"
+    }
 }

@@ -1,11 +1,11 @@
-// pages/input/input.js
+// pages/picker/picker.js
 Page({
 
     /**
      * 页面的初始数据
      */
     data: {
-        focus: 'false'
+        array: ['美国', '中国', '巴西', '日本'],
     },
 
     /**
@@ -14,22 +14,6 @@ Page({
     onLoad: function (options) {
 
     },
-
-    bindButtonTap() {
-        this.setData({
-            focus: true
-        })
-    },
-
-    bindKeyInput(e) {
-        console.log(e)
-    },
-
-    bindReplaceInput(e) {
-        console.log(e)
-    },
-
-
 
     /**
      * 生命周期函数--监听页面初次渲染完成
