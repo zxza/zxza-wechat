@@ -19,7 +19,9 @@
         "pages/button/button",
         "pages/form/form",
         "pages/input/input",
-        "pages/picker/picker"
+        "pages/picker/picker",
+        "pages/picker-view/pickerView",
+        "pages/detailForm/detailForm"
     ],
     "window": {
         "backgroundColor": "#F6F6F6",

@@ -1,0 +1,38 @@
+<!--pages/detailForm/detailForm.wxml-->
+<view class="section section_gap">
+    <text class="section__title">设置step</text>
+    <view class="body-view">
+        <slider bindchange="slider2change" selected-color='red' step="5" block-size='12' />
+    </view>
+</view>
+
+<view class="section section_gap">
+    <text class="section__title">显示当前value</text>
+    <view class="body-view">
+        <slider bindchange="slider3change" show-value/>
+    </view>
+</view>
+
+<view class="section section_gap">
+    <text class="section__title">设置最小/最大值</text>
+    <view class="body-view">
+        <slider bindchange="slider4change" min="50" max="200" show-value/>
+    </view>
+</view>
+
+<view class="body-view">
+    <switch checked bindchange="switch1Change"/>
+    <switch bindchange="switch2Change"/>
+</view>
+
+<view class="section">
+  <textarea bindblur="bindTextAreaBlur" auto-height placeholder="自动变高" />
+</view>
+
+<view class="section">
+  <textarea placeholder="placeholder颜色是红色的" placeholder-style="color:red;"  />
+</view>
+
+<view class="section">
+  <textarea placeholder="这是一个可以自动聚焦的textarea" auto-focus />
+</view>
